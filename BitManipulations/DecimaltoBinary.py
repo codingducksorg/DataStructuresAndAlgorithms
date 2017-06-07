@@ -1,6 +1,3 @@
-# Hello World program in Python
-    
-print "Hello World!\n"
 def convertToBinary(num):
   """Function to print binary number
   for the input decimal"""
