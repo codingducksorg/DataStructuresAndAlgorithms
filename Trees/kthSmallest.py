@@ -4,6 +4,9 @@ class BSTNode(object):
 		self.left = None
 		self.right = None
 
+#in-order traversal and global variable to count smallest K
+#Time complexity: O(n)
+#Space complexity: O(1)
 counter = 0
 def kthSmallest(root, k):
 	global counter
